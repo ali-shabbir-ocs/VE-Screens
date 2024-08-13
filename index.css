@@ -1,0 +1,116 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: url(door.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Montserrat";
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 190px;
+}
+.row {
+  background-color: rgba(17, 52, 70, 0.95);
+  border-radius: 10px;
+  border-color: #35515d;
+  height: 350px;
+  width: 790px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  font-family: "Montserrat";
+}
+h2 {
+  font-size: 1.5em;
+  letter-spacing: 0.041em;
+
+  color: white;
+  text-align: center;
+}
+.formsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.inputbar {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.inputbar1 {
+  background-color: #3a4e5a;
+  border-radius: 29px;
+  border-color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  width: 100%;
+  min-height: 50px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.inputbar1::placeholder {
+  color: white;
+}
+.inputbar1:focus {
+  border-color: white;
+  box-shadow: 0 0 6px #ffffff;
+}
+.formlogo {
+  margin-left: -40px;
+  padding-top: 10px;
+}
+.buttoncontainer {
+  display: flex;
+  margin: 15px;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.firstbutton {
+  width: 49%;
+  height: 58px;
+  border-radius: 29px;
+  margin: 0px;
+  font-size: 1em;
+  border-width: 0px;
+  background-image: linear-gradient(#75838b, #3b4246);
+
+  background-blend-mode: normal;
+  color: white;
+}
+
+.secondbutton {
+  width: 49%;
+  height: 58px;
+  border-width: 0px;
+  border-radius: 29px;
+
+  margin: 0px;
+  font-size: 1em;
+  background-image: linear-gradient(#2c5167, #2c5167);
+  color: #788b96;
+}
+.footerheading {
+  color: white;
+  margin-top: 8rem;
+}

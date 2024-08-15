@@ -1,0 +1,102 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: url(main_menu.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Montserrat";
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 0) !important;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.virtue {
+  height: 28px;
+}
+.experios {
+  height: 28px;
+}
+
+.menubutton1 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-right: 45px;
+}
+.menubutton {
+  background-color: #113446;
+  border: 1px solid #35515d;
+  border-radius: 29px;
+  color: #fff;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+@media (min-width: 768px) {
+  .menuicon {
+    display: none;
+  }
+}
+.content {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.texts {
+  color: #fff;
+}
+#firsttext {
+  font-size: 1.9em;
+  font-weight: 400;
+  text-align: center;
+  margin: 0px;
+}
+#permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-size: 4em;
+  margin: 0px;
+  font-style: normal;
+}
+.grids {
+  max-width: 55rem;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.box img {
+  width: 200px;
+  height: auto;
+  margin-top: 1.5em;
+  gap: 20px;
+}
+.firstimg img {
+  left: 50px;
+  bottom: 0;
+  width: 100px;
+}

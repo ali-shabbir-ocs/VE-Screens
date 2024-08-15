@@ -11,6 +11,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .nav {
   width: 100%;
@@ -36,9 +37,9 @@ body {
   display: flex;
   justify-content: flex-end;
   gap: 10px;
-  margin-right: 45px;
-  flex-basis: 100%;
-  flex-grow: 1;
+  margin-right: 10vw;
+  /* flex-basis: 100%;
+  flex-grow: 1; */
 }
 .menubutton {
   background-color: #113446;

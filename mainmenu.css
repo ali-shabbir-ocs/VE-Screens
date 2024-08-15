@@ -37,6 +37,8 @@ body {
   justify-content: flex-end;
   gap: 10px;
   margin-right: 45px;
+  flex-basis: 100%;
+  flex-grow: 1;
 }
 .menubutton {
   background-color: #113446;
@@ -55,6 +57,24 @@ body {
     display: none;
   }
 }
+@media (max-width: 768px) {
+  .texts {
+    margin-top: 1em;
+  }
+  .menuicon {
+    margin-right: 1.5em;
+    padding: 15px;
+    border: 1px solid transparent;
+    background-color: hsla(0, 0%, 100%, 0.045);
+    border-color: hsla(0, 0%, 100%, 0.1);
+    border-radius: 0.25rem;
+    background-image: url("download1.svg");
+  }
+  .menubutton1 {
+    display: none;
+  }
+}
+
 .content {
   min-height: 80vh;
   display: flex;
@@ -77,26 +97,38 @@ body {
   font-size: 4em;
   margin: 0px;
   font-style: normal;
+  text-align: center;
 }
 .grids {
-  max-width: 55rem;
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  max-width: 60rem;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
   gap: 20px;
+  flex-wrap: wrap;
 }
 .box {
   display: flex;
   flex-direction: column;
-}
-.box img {
-  width: 200px;
+  background-image: url(download.png);
+  background-size: cover;
   height: auto;
-  margin-top: 1.5em;
-  gap: 20px;
+  padding-bottom: 40px;
 }
-.firstimg img {
-  left: 50px;
+.box p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  color: #6c757d;
+}
+
+a {
+  cursor: pointer;
+}
+.firstimg {
   bottom: 0;
   width: 100px;
+  padding: 30px 60px;
+  opacity: 0.3;
 }

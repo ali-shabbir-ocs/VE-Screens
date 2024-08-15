@@ -114,13 +114,29 @@ body {
   background-image: url(download.png);
   background-size: cover;
   height: auto;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
+}
+.lastbox {
+  display: flex;
+  flex-direction: column;
+  background-image: url("path 6.png");
+  background-size: cover;
+  height: auto;
+  /* padding-bottom: 40px; */
+}
+.lastbox p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+  padding-top: 40px;
 }
 .box p {
   text-align: center;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 22px;
-  color: #6c757d;
+  color: white;
+  padding-top: 40px;
 }
 
 a {
